@@ -29,7 +29,7 @@ class WeatherApp(tk.Tk):
         self.geometry("550x300")
         self.resizable(False, False)
 
-        self.logo = PhotoImage(file='favicon-32x32.png')
+        self.logo = PhotoImage(file='jpaubel.png')
         self.isClicked = False
         self.tempLabel = 'Celsius'
 
